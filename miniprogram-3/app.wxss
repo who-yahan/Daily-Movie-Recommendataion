@@ -1,0 +1,44 @@
+/**app.wxss**/
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  */
+
+.container{
+  background-color: #fff;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-banner{
+  width: 375rpx;
+  height: 375rpx;
+
+  border-radius: 50%;
+}
+.movie{
+  background-color: #eee;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: left;
+}
+.movie-image{
+  width: 375rpx;
+  height: 375rpx;
+}
+
+.nav-hover{
+  color: red;
+}
