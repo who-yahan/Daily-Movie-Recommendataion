@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<view class="container">
+  <image class="about-banner" src="/images/唐柔.jpg"></image>
+  <text>电影周周看</text>
+  <view> 
+  <text >我</text><navigator style="display: inline" url='/pages/weekly/weekly' open-type="switchTab" hover-class="nav-hover">每周推荐</navigator><text>一部好片</text>
+  </view>
+  <text >我的微博： weibo.com/yahan</text>
+</view>
+
