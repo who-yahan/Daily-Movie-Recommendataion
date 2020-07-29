@@ -17,7 +17,7 @@ Page({
       },
       {
         name: "这个杀手不太冷",
-        comment: "小萝莉与怪蜀黍纯真灿烂的爱情故事，我的天呐怎么",
+        comment: "小萝莉",
         imagePath: "/images/Golf.jpg",
         isHighlyRecommended: true,
         id: 88
